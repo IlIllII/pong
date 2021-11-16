@@ -16,6 +16,8 @@ This is 60 FPS, 7-bit ASCII Pong played in your terminal. It is built on Linux a
   <img src="https://user-images.githubusercontent.com/78166995/142036251-3b4932a4-9d93-48b1-a4ba-78e5fac5b20a.PNG"></img>
 </div>
 
+If you want sound, make sure your terminal bell is enabled. Alternatively, if you find the sound annoying, make sure to disable your terminal bell.
+
 ## To run
 
 To play the game, just compile it with gcc and link to the pthread library:
