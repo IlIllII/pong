@@ -226,6 +226,7 @@ void update_ball_position(struct game *game)
             }
             game->ball.velocity_x = game->ball.velocity_x * (-1);
             game->score++;
+            printf("\a");
         }
         else // player missed ball
         {
@@ -235,6 +236,7 @@ void update_ball_position(struct game *game)
     else if (new_x == BOARD_WIDTH - 1) // ball reached cpu side
     {
         game->ball.velocity_x = game->ball.velocity_x * (-1); // cpu can't lose!!
+        printf("\a");
     }
 
     // handling wall rebounds
