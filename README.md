@@ -4,7 +4,7 @@
 
 ## About
 
-This is 60 FPS, 7-bit ASCII Pong played in your terminal. It is built on Linux and will need to be ported to play on another OS.
+This is Pong played in your terminal. It is built on Linux and will need to be ported to play on another OS.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/78166995/142036252-957bbb89-0170-45d1-bdc1-3487a2c0dd66.PNG"></img>
